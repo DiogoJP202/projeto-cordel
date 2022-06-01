@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+body{
+background-color: rgb(127, 241, 241);
+margin: 0px;
+}
+header{
+    background-color: black;
+    text-align: center;
+    margin:  0px 0px 0px 0px;
+    padding: 10px;
+}
+header>h1{
+    font-family: 'Passion One','Courier New', Courier, monospace;
+    color: white;
+    font-size: 70px;
+    margin: 10px;
+}
+header>p{
+    font-family: 'Sriracha','Courier New', Courier, monospace;
+    color: white;
+    margin: 10px;
+}
+header>strong{
+    font-weight: bolder;
+}
+section>p{
+    font-family: 'Sriracha','Courier New', Courier, monospace;
+    margin: 0px;
+    font-size: 25px;
+    line-height: 50px;
+}
+section.box1{
+   color: black;
+   background-color: white;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+section.box1>p{
+    padding: 30px;
+    max-width: 300px;
+}
+section.box2{
+   color: white;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+section.box2>p{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.500);
+    max-width: 300px;
+}
+section.box2#joaninha{
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.box2#livro{
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    font-family: 'Sriracha';
+    margin: 0px;
+    color: white;
+}
+footer>p{
+    margin: 0px;
+}
+footer>p>a{
+    color: white;
+}
+footer>p>a:hover{
+    background-color: rgba(255, 255, 0, 0.349);
+    border-radius: 10px;
+    text-decoration: none;
+}
