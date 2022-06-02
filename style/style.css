@@ -1,86 +1,83 @@
-@charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+:root{
+    --fonte1: 'Courier New', Courier, monospace;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive; 
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
-body{
-background-color: rgb(127, 241, 241);
-margin: 0px;
+html, body{
+    font-family: var(--fonte1);
+    min-height: 100vh;
+    background-color: darkgray;
 }
 header{
     background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    margin:  0px 0px 0px 0px;
-    padding: 10px;
+    font-family: var(--fonte2);
+    font-size: 4vw;
 }
-header>h1{
-    font-family: 'Passion One','Courier New', Courier, monospace;
+a {
     color: white;
-    font-size: 70px;
-    margin: 10px;
-}
-header>p{
-    font-family: 'Sriracha','Courier New', Courier, monospace;
-    color: white;
-    margin: 10px;
-}
-header>strong{
     font-weight: bolder;
+    text-decoration: none;
 }
-section>p{
-    font-family: 'Sriracha','Courier New', Courier, monospace;
-    margin: 0px;
-    font-size: 25px;
-    line-height: 50px;
+header a:hover, footer a:hover{
+    background-color: rgba(255, 255, 0, 0.404);
+    border-radius: 3px;
+    padding: 2px;
 }
-section.box1{
-   color: black;
-   background-color: white;
-   padding-top: 80px;
-   padding-bottom: 80px;
+section{
+    font-size: 2.5vw;
+    font-family: var(--fonte3);
+    font-style: italic;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
-section.box1>p{
-    padding: 30px;
-    max-width: 300px;
+section.normal>p{
+    margin-bottom: 15px;
 }
-section.box2{
-   color: white;
-   padding-top: 80px;
-   padding-bottom: 80px;
+section.normal{
+    background-color: white;
+    color: black;
 }
-section.box2>p{
-    padding: 30px;
+section.imagem{
+    background-color: darkgray;
+    color: white;
+}
+section.imagem>p{
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.500);
-    max-width: 300px;
+    display: inline-block;
+    box-shadow: 3px 3px 5px black;
 }
-section.box2#joaninha{
-    background-image: url(../imagens/background001.jpg);
-    background-repeat: no-repeat;
+section#imagem_joaninha{
+    background-image: url('../imagens/background001.jpg');
     background-position: center center;
-    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
-section.box2#livro{
-    background-image: url(../imagens/background002.jpg);
-    background-repeat: no-repeat;
+section#imagem_livro{
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.445);
+    background-image: url('../imagens/background002.jpg');
     background-position: center center;
-    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 footer{
     background-color: black;
+    color: white;
     text-align: center;
-    font-family: 'Sriracha';
-    margin: 0px;
-    color: white;
-}
-footer>p{
-    margin: 0px;
-}
-footer>p>a{
-    color: white;
-}
-footer>p>a:hover{
-    background-color: rgba(255, 255, 0, 0.349);
-    border-radius: 10px;
-    text-decoration: none;
+    padding: 5px 0px;
 }
