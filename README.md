@@ -1,9 +1,9 @@
-# projeto_android
-<h2>Site sobre o mascote do android, feito com a ajuda do curso do Gustavo Guanabara do Canal "CursoEmVideo".</h2>
-<img src="https://github.com/DiogoJP202/projeto_android/assets/102389309/5ac6d388-ed7c-43ec-8712-81930a87a827">
+# Projeto Cordel
+<h2>Um site sobre um cordel de Milton Duarde, feito com a ajuda do curso do Gustavo Guanabara do Canal "CursoEmVideo".</h2>
+<img src="https://github.com/DiogoJP202/projeto-cordel/assets/102389309/c81cba85-2ecc-4b9e-bdf5-94b33bbae70c">
 <p>Foi feito priorizando a resposividade e foi um dos meus primeiros sites.</p>
 
-<a href="https://diogojp202.github.io/projeto_android/Android.html" target="_blank">SITE DO ANDROID AQUI</a>
+<a href="https://diogojp202.github.io/projeto-cordel/index.html" target="_blank">SITE DO ANDROID AQUI</a>
 <h3>Tecnologias Utilizadas: </h3>
 <ul>
   <li> HTML;
