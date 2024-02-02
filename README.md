@@ -3,7 +3,7 @@
 <img src="https://github.com/DiogoJP202/projeto-cordel/assets/102389309/c81cba85-2ecc-4b9e-bdf5-94b33bbae70c">
 <p>Foi feito priorizando a resposividade e foi um dos meus primeiros sites.</p>
 
-<a href="https://diogojp202.github.io/projeto-cordel/index.html" target="_blank">SITE DO ANDROID AQUI</a>
+<a href="https://diogojp202.github.io/projeto-cordel/index.html" target="_blank">SITE DO CORDEL AQUI</a>
 <h3>Tecnologias Utilizadas: </h3>
 <ul>
   <li> HTML;
